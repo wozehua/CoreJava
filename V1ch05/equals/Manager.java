@@ -1,6 +1,5 @@
 package equals;
 
-import java.beans.JavaBean;
 
 /**
  * 创建人：  @author czh

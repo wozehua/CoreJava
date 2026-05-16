@@ -10,9 +10,9 @@ import java.util.Objects;
  * 文件名称: Employee
  */
 public class Employee {
-    private final String name;
+    private  String name;
     private double salary;
-    private final LocalDate hireDay;
+    private  LocalDate hireDay;
     public Employee(String name,double salary,int year,int month,int day)
     {
         this.name=name;
