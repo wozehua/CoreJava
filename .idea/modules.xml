@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CoreJava.iml" filepath="$PROJECT_DIR$/CoreJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/V1ch03/V1ch03.iml" filepath="$PROJECT_DIR$/V1ch03/V1ch03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v1ch04/CalendarTest/V1ch04.iml" filepath="$PROJECT_DIR$/v1ch04/CalendarTest/V1ch04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/V1ch05/V1ch05.iml" filepath="$PROJECT_DIR$/V1ch05/V1ch05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v1ch02/v1ch02.iml" filepath="$PROJECT_DIR$/v1ch02/v1ch02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v1ch04/v1ch04.iml" filepath="$PROJECT_DIR$/v1ch04/v1ch04.iml" />
+    </modules>
+  </component>
+</project>

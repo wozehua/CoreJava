@@ -1,0 +1,39 @@
+package equals;
+
+import java.beans.JavaBean;
+
+/**
+ * 创建人：  @author czh
+ * 创建时间: 2026-05-16 14:27
+ * 项目名称: CoreJava
+ * 文件名称: Manager
+ */
+public class Manager extends Employee{
+
+    private double bonus;
+    public Manager(String name, double salary, int year, int month, int day) {
+        super(name, salary, year, month, day);
+        bonus=0;
+    }
+    public double getSalary(){
+        double baseSalary=super.getSalary();
+        return  baseSalary+bonus;
+    }
+
+    public void  setBonus(double bonus){
+        this.bonus=bonus;
+    }
+
+    public boolean equals(Object otherObject){
+        if (!super.equals(otherObject)) return  false;
+        var other=(Manager)otherObject;
+        //supper.equals checked that this and other belong to the same class
+        return  bonus==other.bonus;
+    }
+    public  int hashCode(){
+        return java.util.Objects.hash(super.hashCode(),bonus);
+    }
+    public String toString(){
+        return super.toString()+"[bonus="+bonus+"]";
+    }
+}
